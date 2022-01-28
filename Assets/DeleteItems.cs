@@ -26,7 +26,7 @@ public class DeleteItems : MonoBehaviour
         this.unityChanPos = this.unityChan.transform.position;
         
         //Unityちゃんの位置よりさらにplusPos分だけ後ろのアイテムを削除
-        if(this.transform.position.z < this.unityChanPos.z - plusPos) {
+        if(transform.position.z < this.unityChanPos.z - plusPos) {
             Destroy(this.gameObject);
         }
     }
