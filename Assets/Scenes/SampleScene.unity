@@ -394,6 +394,7 @@ GameObject:
   m_Component:
   - component: {fileID: 333110151}
   - component: {fileID: 333110150}
+  - component: {fileID: 333110152}
   m_Layer: 0
   m_Name: ItemGenerator
   m_TagString: Untagged
@@ -430,6 +431,21 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &333110152
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 333110149}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 83dc307ec2c6b2144b77579273b163fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  carPrefab: {fileID: 3822510491290218291, guid: fc943d849d4df9440a5229d3ead4690f, type: 3}
+  coinPrefab: {fileID: 5314975096598704959, guid: 00a937858e4cc774a90677f6d6ee983d, type: 3}
+  conePrefab: {fileID: 5486103582937753649, guid: 78d35473bc63bd04082e759916519664, type: 3}
 --- !u!1 &355614011
 GameObject:
   m_ObjectHideFlags: 0
