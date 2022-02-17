@@ -141,7 +141,7 @@ public class UnityChanController : MonoBehaviour
         }
     }
 
-    //ジャンプボタン押下時の処理 ★ここはなぜpublic voidなのか。。。
+    //ジャンプボタン押下時の処理 ★ここがpublic voidなのは、ボタンのインスペクタから呼び出すようにしているから
     public void GetMyJumpButtonDown() {
         this.isJButtonDown = true;
     }
